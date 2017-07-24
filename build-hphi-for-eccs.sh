@@ -13,7 +13,7 @@ patch -p1 < ../HPhi-2.0.0.patch
 # cmake & build & install
 mkdir build
 cd build
-cmake -DCMAKE_INSTALL_PREFIX=$HOME/HPhi -DCMAKE_C_COMPILER=gcc-5 -DCMAKE_Fortran_COMPILER=gfortran-5 ..
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/HPhi -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_Fortran_COMPILER=gfortran-7 ..
 make
 make install
 
